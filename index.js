@@ -28,3 +28,7 @@ function prependDriver(name){
 function removeLastDriver(){
   const oneLess = drivers.slice(-1);
 }
+
+function removeFirstDriver(){
+  const twoLess = drivers.slice(1):
+}
