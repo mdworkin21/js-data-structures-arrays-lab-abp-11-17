@@ -20,3 +20,7 @@ function destructivelyRemoveFirstDriver(name){
 function appendDriver(name){
   const allDrivers = [...drivers, "Broom"]
 }
+
+function prependDriver(name){
+  const newDrivers = ["Arnold", ...drivers]
+}
